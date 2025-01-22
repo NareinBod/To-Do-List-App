@@ -10,8 +10,9 @@ Delete Task: Users can remove tasks from the list.
 Responsive Design: The app is designed to be mobile-friendly, ensuring a smooth experience across devices.
 
 <h3>Tech Stack<h3>
-  
-TypeScript: For static typing and enhanced code quality.
-Angular: A robust framework for building the app's components and managing the app's state.
-HTML5: Used to create the structure and layout of the app.
-CSS3: For styling the app and ensuring responsiveness.
+<ul>    
+  TypeScript: For static typing and enhanced code quality.
+  Angular: A robust framework for building the app's components and managing the app's state.
+  HTML5: Used to create the structure and layout of the app.
+  CSS3: For styling the app and ensuring responsiveness.
+<ul>
