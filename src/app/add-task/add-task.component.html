@@ -1,15 +1,24 @@
 <div class="add_task">
+    <input 
+      type="text" 
+      placeholder="Enter the task you wish to complete" 
+      [(ngModel)]="task" 
+    />
     <button class="add" (click)="addTask()">Add Task</button>
-    <br>
-    <input type="text" placeholder="Enter the task you wish to complete" [(ngModel)]="task">
-</div>
-
-<div class="output">
+  </div>
+  
+  <div class="output">
     <ul>
-        @for (item of todo_list; track item.id;) {
-            <input type="checkbox" (change)="toggleCompleted(item.id)">
-            <span>{{item.task_name}}</span>
-            <button (click)="delete(item.id)">Delete</button>
-        }
+      @for (item of todo_list; track item.id;) {
+        <li class="task-item">
+          <label class="task-container">
+            <input id="checkbox" type="checkbox" (change)="toggleCompleted(item.id)" />
+            <span class="custom-checkbox"></span>
+          </label>
+          <span id="task_name">{{ item.task_name }}</span>
+          <button class="delete" (click)="delete(item.id)">Delete</button>
+        </li>
+      }
     </ul>
-</div>
+  </div>
+  

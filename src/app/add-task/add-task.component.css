@@ -1,32 +1,116 @@
-.add {
-    background-color:darkcyan;
-    color: azure;
-    width: 100px;
-    height: 50px;
-    border: 4px;
-    font-size: larger;
-}
-
-.add:hover, .add:focus {
-    animation: pulse 1s;
-    box-shadow: 0 0 0 2em rgba(#fff,0);
-}
-
-input {
-    width: 700px;
-    height: 50px;
-    border: 4px;
-    margin-left: 20px;
-    background-color: skyblue;
-    color: black;
-    font-size: larger;
-}
-
-.add_task {
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  /* Add task section */
+  .add_task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add_task input {
+    flex: 1;
+    padding: 15px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #e3f2fd;
+    color: #333;
+  }
+  
+  .add_task input::placeholder {
+    color: #999;
+  }
+  
+  .add_task button {
+    padding: 15px 20px;
+    font-size: 1em;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add_task button:hover {
+    background-color: #004d40;
+  }
+  
+  /* Output list section */
+  .output ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
     display: flex;
     align-items: center;
-}
-
-.output {
-    
-}
+    background-color: #1C7CA6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-item:hover {
+    background-color: black;
+  }
+  
+  .task-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #checkbox {
+    display: none;
+  }
+  
+  .custom-checkbox {
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  #checkbox:checked + .custom-checkbox {
+    background-color: #00796b;
+    border-color: #00796b;
+  }
+  
+  #task_name {
+    flex: 1;
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fdf2e9;
+    color: #333;
+  }
+  
+  .delete {
+    padding: 8px 12px;
+    font-size: 0.9em;
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete:hover {
+    background-color: #b71c1c;
+  }
+  
