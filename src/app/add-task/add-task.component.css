@@ -22,6 +22,11 @@ input {
     font-size: larger;
 }
 
-.input {
-    display: inline-flex;
+.add_task {
+    display: flex;
+    align-items: center;
+}
+
+.output {
+    
 }
