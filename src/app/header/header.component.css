@@ -1,0 +1,10 @@
+header {
+    background-color: #1C7CA6;
+    height: 100px;
+    color: wheat;
+    text-align: center;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 4px;
+    line-height: 25px;
+}
