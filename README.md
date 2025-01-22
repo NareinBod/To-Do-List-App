@@ -1,66 +1,13 @@
-<<<<<<< HEAD
-# test-repo
-for practice purposes.
-<br>
-Narein Boddapati
-=======
-# ToDoList
+To-Do List Web App
+This is a simple To-Do List web application built using TypeScript, Angular, HTML, and CSS. The app allows users to create, update, delete, and mark tasks as completed, providing a clean and easy-to-use interface.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
-
-## Development server
-
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
->>>>>>> 766fccc (initial commit)
+Features
+Add New Task: Users can add new tasks to their to-do list.
+Mark as Complete: Tasks can be marked as completed, visually indicating their status.
+Delete Task: Users can remove tasks from the list.
+Responsive Design: The app is designed to be mobile-friendly, ensuring a smooth experience across devices.
+Tech Stack
+TypeScript: For static typing and enhanced code quality.
+Angular: A robust framework for building the app's components and managing the app's state.
+HTML5: Used to create the structure and layout of the app.
+CSS3: For styling the app and ensuring responsiveness.
