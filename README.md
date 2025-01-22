@@ -11,8 +11,8 @@ Responsive Design: The app is designed to be mobile-friendly, ensuring a smooth 
 
 <h3>Tech Stack<h3>
 <ul>    
-  TypeScript: For static typing and enhanced code quality.
-  Angular: A robust framework for building the app's components and managing the app's state.
-  HTML5: Used to create the structure and layout of the app.
-  CSS3: For styling the app and ensuring responsiveness.
+  <li>TypeScript: For static typing and enhanced code quality.</li>
+  <li>Angular: A robust framework for building the app's components and managing the app's state.</li>
+  <li>HTML5: Used to create the structure and layout of the app.</li>
+  <li>CSS3: For styling the app and ensuring responsiveness.</li>
 <ul>
